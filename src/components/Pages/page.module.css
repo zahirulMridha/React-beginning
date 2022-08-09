@@ -1,0 +1,12 @@
+.listItems {
+  display: flex;
+  gap: 1rem;
+}
+.listItems li {
+  list-style: none;
+}
+.listItems .link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

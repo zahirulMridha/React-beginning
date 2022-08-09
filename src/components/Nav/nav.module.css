@@ -1,0 +1,19 @@
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+}
+.listItems {
+  display: flex;
+  gap: 1rem;
+}
+.listItems li {
+  list-style: none;
+}
+.listItems .link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

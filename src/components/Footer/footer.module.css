@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  background-color: #aaa;
+  color: white;
+  padding: 2rem 2rem;
+}
+.listItems {
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  list-style: none;
+}

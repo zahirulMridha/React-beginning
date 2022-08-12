@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.crudApp {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 /* .listItems {
   display: flex;
   gap: 1rem;

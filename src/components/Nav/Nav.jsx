@@ -30,6 +30,11 @@ function Nav() {
             Clock
           </Link>
         </li>
+        <li>
+          <Link className={classes.link} to="/crud">
+            Crud
+          </Link>
+        </li>
       </ul>
     </nav>
   );

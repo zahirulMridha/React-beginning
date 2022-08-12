@@ -10,10 +10,12 @@ function Home() {
   return (
     <Layout>
       <h1>This is Home page</h1>
-      <h3 style={{margin:"1rem", textDecoration:"underline"}}>List of person</h3>
-      <ul style={{listStyle:"none"}}>
+      <h3 style={{ margin: "1rem", textDecoration: "underline" }}>
+        List of person
+      </h3>
+      <ul style={{ listStyle: "none" }}>
         {persons.map((person) => (
-          <li style={{margin:"1rem"}}>
+          <li style={{ margin: "1rem" }}>
             {person.name} - {person.mail}
           </li>
         ))}

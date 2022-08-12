@@ -1,6 +1,6 @@
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
-import classes from "./layout.module.css"
+import classes from "./layout.module.css";
 
 function Layout(props) {
   return (

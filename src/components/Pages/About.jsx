@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../Button/Button";
 import Display from "../display/Display";
-import Form from "../form/Form";
+import Input from "../Input/Input";
 import Layout from "../Layout/Layouut";
 
 function About() {
@@ -33,7 +33,7 @@ function About() {
     <Layout>
       <h2>about page</h2>
       <Display point={count} />
-      <Form changeHandler={inputHandler} value={inputValue} />
+      <Input changeHandler={inputHandler} value={inputValue} type={"number"} />
       <Button handler={increCountHandler} text="Increment" />
       <Button handler={decreCountHandler} text="Decrement" />
     </Layout>

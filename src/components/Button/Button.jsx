@@ -1,7 +1,11 @@
 import classes from "./Button.module.css";
 function Button(props) {
   return (
-    <button className={classes.button} onClick={props.handler}>
+    <button
+      className={classes.button}
+      type={props.type}
+      onClick={props.handler}
+    >
       {props.text}
     </button>
   );

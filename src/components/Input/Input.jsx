@@ -1,12 +1,13 @@
 import classes from "./form.module.css";
-function Form(props) {
+function Input(props) {
   return (
     <input
       className={classes.form}
-      type="number"
+      type={props.type}
       value={props.value}
       onChange={props.changeHandler}
+      placeholder={props.placeholder}
     />
   );
 }
-export default Form;
+export default Input;

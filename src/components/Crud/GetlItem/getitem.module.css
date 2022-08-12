@@ -1,0 +1,10 @@
+.get {
+  margin: 1rem 0;
+  padding: 2rem 7rem 2rem 1rem;
+  background: #352c2c;
+  border-radius: 0.7rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}

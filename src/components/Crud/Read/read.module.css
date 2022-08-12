@@ -1,0 +1,13 @@
+.read {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #aaaaaa;
+  border-radius: 0.7rem;
+}
+
+.list {
+  list-style: none;
+}
+.list li {
+  margin: 0.5rem, 0;
+}
